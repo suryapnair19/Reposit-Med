@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model_path = r'C:\Users\surya\Desktop\render-project\modelmed.pkl'
+model_path = r'modelmed.pkl'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 app = Flask(__name__)
